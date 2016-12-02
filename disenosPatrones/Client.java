@@ -5,7 +5,10 @@ public class Client {
 	public static void m(){
 		System.out.println("hola");
 	}
+	private void exec() {
+		Singleton.instance().m();
+	}
 	public static void main(String[] args){
-		m();
+		new Client().exec();
 	}
 }

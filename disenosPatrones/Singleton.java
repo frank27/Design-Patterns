@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Singleton {
+public abstract class Singleton {
 	
 	private static Singleton singleton;
 	

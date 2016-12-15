@@ -1,6 +1,6 @@
 package poo.clase01;
 
-public class Intervalo {
+public class Intervalo2 {
 	
 	private double superior;
 	

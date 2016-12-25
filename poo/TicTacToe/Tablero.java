@@ -77,7 +77,7 @@ class Tablero {
     }
 
     public boolean ocupada(Coordenada coordenada, char color) {
-        assert coordenada != null;
+        assert coordenada != null;  
         return casillas[coordenada.getFila()-1][coordenada.getColumna()-1] == color;
     }
     
